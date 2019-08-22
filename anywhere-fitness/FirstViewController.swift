@@ -10,9 +10,12 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    let instructorController = InstructorController()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(instructorController.bearer)
         // Do any additional setup after loading the view.
     }
     
